@@ -21,7 +21,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: rgba(1, 22, 39, 0.8);
-    width: clamp(90px ,90% ,720px);
+    width: clamp(90px ,90% ,620px);
     height: fit-content;
     padding: 5vh 0px;
     z-index: 10;
@@ -35,11 +35,12 @@
 .title-page span {
    font-size: 24px;
    text-align: center;
-   margin: 10px 15%;
+   max-width: 500px;
+   margin: 10px 10px;
 }
 
 .start {
-    margin: 7vh 0px 10vh;
+    margin: 2vh 0px;
     width: 30%;
     height: 8%;
     padding: 10px;
